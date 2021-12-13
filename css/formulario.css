@@ -9,9 +9,8 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    sans-serif;
     letter-spacing: .1rem;   
-        display: flex;
+    display: flex;
 }
 
 body,html{
@@ -126,5 +125,10 @@ textarea{
 
 #feedbackMessage.show{
     transform: translateY(0px);
+}
+
+#feedbackMessage button:focus{
+    border: rgb(0, 0, 0) 3px solid;
+    border-radius: 5px;
 }
 
